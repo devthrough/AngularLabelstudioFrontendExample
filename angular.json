@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
-          "strict": true
+          "strict": false
         }
       },
       "root": "",
@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/label-studio/build/static/css/main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/label-studio/build/static/js/main.js"
+            ]
           },
           "configurations": {
             "production": {

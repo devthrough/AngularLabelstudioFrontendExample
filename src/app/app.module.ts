@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { LabelstudioComponentComponent } from './labelstudio-component/labelstudio-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LabelstudioComponentComponent
   ],
   imports: [
     BrowserModule
